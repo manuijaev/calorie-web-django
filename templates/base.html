@@ -1,0 +1,22 @@
+<!doctype html><html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Calorie Counter</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <style>
+    /* small enhancements */
+  </style>
+</head>
+<body class="bg-slate-50 min-h-screen font-sans">
+  <div class="max-w-4xl mx-auto p-6">
+    <header class="mb-6">
+      <h1 class="text-4xl font-extrabold text-slate-900">Calorie Counter</h1>
+      <p class="text-slate-600">Keep track of your daily calories — simple, fast, and beautiful.</p>
+    </header>
+    <main>
+      {% block content %}{% endblock %}
+    </main>
+  </div>
+</body>
+</html>
