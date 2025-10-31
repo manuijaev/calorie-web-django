@@ -1,1 +1,2 @@
-web: gunicorn calorie_counter_project.wsgi --log-file -
+web: gunicorn calorie_project.wsgi --bind 0.0.0.0:$PORT
+
